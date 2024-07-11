@@ -1,0 +1,36 @@
+.anime{
+    height: 100px;
+    width: 100px;
+    background-color: transparent;
+    border: 1px solid black;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+   
+
+    .box{
+        height: 50%;
+        width: 50%;
+        border: 1px solid black;
+        transition:all 5s ease;  
+    }
+
+    .circle{
+        height: 50%;
+        width: 50%;
+        border-radius: 100%;
+        border: 1px solid black;
+        transition:all 5s ease; 
+    }
+}
+
+.anime:hover .box{
+    transform:translateX(400px) rotate(360deg) ;
+    
+   
+}
+.anime:hover .circle{
+    transform: translateX(400px)  translateY(300px);
+  
+   
+}
